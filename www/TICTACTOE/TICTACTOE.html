@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tres en raya</title>
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <script src="code.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <div class="PanelGanador">
+        <div id="TextoFinal">¡Tres en raya!</div>
+    </div>
+    <div class="FlexContainer">
+
+        <div class="GameContainer">
+            <div onclick="selectBox(this.id)" id="0" class="game-field blue"></div>
+            <div onclick="selectBox(this.id)" id="1" class="game-field green"></div>
+            <div onclick="selectBox(this.id)" id="2" class="game-field blue"></div>
+            <div onclick="selectBox(this.id)" id="3" class="game-field green"></div>
+            <div onclick="selectBox(this.id)" id="4" class="game-field blue"></div>
+            <div onclick="selectBox(this.id)" id="5" class="game-field green"></div>
+            <div onclick="selectBox(this.id)" id="6" class="game-field blue"></div>
+            <div onclick="selectBox(this.id)" id="7" class="game-field green"></div>
+            <div onclick="selectBox(this.id)" id="8" class="game-field blue"></div>
+        </div>
+    </div>
+    <div class="BotonesFinales">
+        <button type="button" class="btn btn-primary boton" onclick="restart()">Reiniciar</button>
+    </div>
+</body>
+
+</html>

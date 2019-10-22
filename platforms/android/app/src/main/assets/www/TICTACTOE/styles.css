@@ -1,0 +1,81 @@
+body {
+    font-family: 'Source Sans Pro';
+    background: black;
+    background-size: cover;
+}
+
+.FlexContainer {
+    background: #6666FF;
+    height: 50vh;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GameContainer {
+    background: black;
+    width: 84vw;
+    height: 84vw;
+}
+
+.game-field {
+    width: 28vw;
+    height: 28vw;
+    float: left;
+}
+
+.green {
+    background: #DCDCDC	;
+}
+
+.blue {
+    background: #D8D8D8;
+}
+
+.purple {
+    background-image: url("./media/MAX.png");
+  background-position: center center;
+  background-size: contain;
+  background-color: #E0E0E0	;
+
+}
+
+.orange {
+    background-image: url("./media/MIN.png");
+    background-position: center center;
+    background-size: contain;
+    background-color: #E0E0E0	;
+}
+
+.PanelGanador {
+    background: black;
+    height: 25vh;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TextoFinal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 9vw;
+    text-align: center;
+    color:white;
+
+}
+
+.BotonesFinales {
+    background: black;
+    height: 24vh;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 9vw;
+    text-align: center;
+}

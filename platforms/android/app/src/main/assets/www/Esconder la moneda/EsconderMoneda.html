@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Algoritmo de N-gramas</title>
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <script src="code.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="Titulo">
+        Deberás escoger en que mano guardaras la moneda. La IA aprenderá de tí para intentar adivinar donde la has
+        metido (N-gramas)
+
+        <div class="form-inline" style=" margin-top: 2vh; margin-bottom: -1vh; ">
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputVentana" class="sr-only">Nº Ventana</label>
+                <input type="text" class="form-control" id="valueVentana"
+                    placeholder="Nº Ventana (2, por defecto)">
+            </div>
+            <button onclick="cambiarVentana()" class="btn btn-primary mb-2" style=" margin-left: 2vw; ">Cambiar ventana</button>
+        </div>
+
+    </div>
+
+    <div class="eleccionAcctiones">
+        <div class="Eleccion IA-THINK" id="EleccionAI"></div>
+        <div class="Eleccion" id="EleccionJugador"></div>
+    </div>
+
+    <div id="WhoWin" class="Winner white">Escoge un mano para esconder la moneda</div>
+
+    <div class="ActionContainer">
+        <div class="opcion-a-elegir">
+            <button type="button" onclick="SelectOption('L')">
+                <img src="./media/IZQUIERDA.png"></button>
+            <div class="white">IZQUIERDA</div>
+        </div>
+
+        <div class="opcion-a-elegir">
+            <button type="button" onclick="SelectOption('R')">
+                <img src="./media/DERECHA.png"></button>
+            <div class="white">DERECHA</div>
+        </div>
+
+    </div>
+
+    <div class="stats white">
+        <div id="InfoTable"></div>
+    </div>
+
+</body>
+
+</html>

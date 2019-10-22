@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Algoritmo Regret machine</title>
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <script src="code.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="Titulo">
+        Esta IA utiliza la probabilidad de tu eleccion de opciones para intentar ganarte. Va aprendiendo de ti, según mas partidas juegas. Algoritmo de la familia "Regret matching".     
+    </div>
+
+
+    <div class="eleccionAcctiones">
+        <div class = "Eleccion" id="EleccionAI" ></div>
+        <div class = "Eleccion" id="EleccionJugador"></div>
+    </div>
+
+    <div id="WhoWin" class="Winner white">Juega una partida</div>
+
+    <div class="ActionContainer">
+        <button type="button" class="btn btn-primary boton" onclick="SelectOption(0)">PIEDRA</button>
+        <button type="button" class="btn btn-primary boton" onclick="SelectOption(1)">PAPEL</button>
+        <button type="button" class="btn btn-primary boton" onclick="SelectOption(2)">TIJERA</button>        
+    </div>
+
+    <div class="stats white">
+       <div id="Piedra" >PIEDRA: 33%</div>
+       <div id="Papel">PAPEL: 33%</div>
+       <div id="Tijera">TIJERA: 33%</div>
+    </div>
+</body>
+
+</html>

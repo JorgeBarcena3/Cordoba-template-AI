@@ -1,0 +1,111 @@
+body {
+    font-family: 'Source Sans Pro';
+    background: black;
+    background-size: cover;
+}
+
+.Titulo{
+    color: white;
+    margin: 2vh;
+}
+
+.ActionContainer{
+    text-align: center;
+    margin-top: 3vh;
+    display: inline-flex;
+    margin: 1vh 15vw;
+}
+
+.eleccionAcctiones{
+    height: 61vh;
+    width: 100%;
+    text-align: center;
+}
+
+.boton{
+    width: 25vw;
+}
+
+.Eleccion{
+    width: 80vw;
+    height: 30vh;
+    background: grey;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.manoIzq{
+    background-image: url("./media/IZQUIERDA.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: grey;
+}
+
+.manoDech{
+    background-image: url("./media/DERECHA.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: grey;
+}
+
+
+.CerradoIzq{
+    background-image: url("./media/CERRADA_IZQ.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: grey;
+}
+
+.CerradoDer{
+    background-image: url("./media/CERRADA_DER.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: grey;
+}
+
+
+.IA-THINK{
+    background-image: url("./media/IA_THINKING.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: grey;
+}
+
+
+.Winner{
+    text-align: center;
+}
+
+.green{
+    color:green;
+}
+
+.red{
+    color:red;
+}
+
+.white{
+    color:white;
+}
+
+.stats{
+    margin-top: 1vh;
+    text-align: center;
+}
+
+
+
+.opcion-a-elegir
+{
+    margin-left: 1vw;
+}
+
+
+.opcion-a-elegir img
+{
+    width: 30vw;
+}
+
+.numero-ventana{
+    
+}

@@ -1,0 +1,80 @@
+body {
+    font-family: 'Source Sans Pro';
+    background: black;
+    background-size: cover;
+}
+
+.Titulo{
+    color: white;
+    margin: 2vh;
+}
+
+.ActionContainer{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.eleccionAcctiones{
+    height: 61vh;
+    width: 100%;
+    text-align: center;
+}
+
+.boton{
+    width: 25vw;
+}
+
+.Eleccion{
+    width: 80vw;
+    height: 30vh;
+    background: grey;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.PAPEL{
+    background-image: url("./media/PAPEL.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: grey;
+}
+
+.PIEDRA{
+    background-image: url("./media/PIEDRA.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: grey;
+}
+
+.TIJERAS{
+    background-image: url("./media/TIJERAS.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: grey;
+}
+
+.Winner{
+    text-align: center;
+}
+
+.green{
+    color:green;
+}
+
+.red{
+    color:red;
+}
+
+.white{
+    color:white;
+}
+
+.stats{
+    display: inline-flex;    
+    margin-top: 2vh;
+}
+
+.stats div{
+    text-align: center;
+    width: 30vw;
+}
